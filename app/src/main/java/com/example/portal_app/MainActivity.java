@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     View pin_01, pin_02,pin_03,pin_04;
     Button btn_clear,btn_00,btn_01,btn_02,btn_03,btn_04,btn_05,btn_06,btn_07,btn_08,btn_09;
     ArrayList<String> numbers_list = new ArrayList<>();
-    String passCode="";
+    String passCode="1234";
     String num_01,num_02,num_03,num_04;
 
     @Override

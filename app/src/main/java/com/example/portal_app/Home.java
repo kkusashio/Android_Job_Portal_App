@@ -11,6 +11,13 @@ public class Home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        //findViewById(R.id.btSearch).setOnClickListener(this);
+        // 「遷移」ボタンをタップしたらonClick()を呼び出す
+        //findViewById(R.id.btLink).setOnClickListener(this);
+        // 日付ボタンをタップしたらonClick()を呼び出す
+        //findViewById(R.id.etStart).setOnClickListener(this);
+        //findViewById(R.id.etEnd).setOnClickListener(this);
     }
 
     @Override
